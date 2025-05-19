@@ -12,7 +12,7 @@ $fruits = getFruits();
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>🍓 Fruit Shop</h1>
+    <h1>Fruit Shop</h1>
     <div class="container">
         <?php foreach ($fruits as $fruit): ?>
             <?php echo renderProductCard($fruit); ?>
