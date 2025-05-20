@@ -28,7 +28,7 @@ $fruit = $fruits[$id];
             <h1><?php echo $fruit['name']; ?></h1>
             <p><?php echo $fruit['desc']; ?></p>
             <h2>₱<?php echo number_format($fruit['price'], 2); ?></h2>
-            <a href="../index.php">⬅ Back to shop</a>
+            <a href="../index.php">Back to shop</a>
         </div>
     </div>
 </body>
