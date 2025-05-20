@@ -16,7 +16,6 @@ $fruit = $fruits[$id];
     <div class="detail-container">
         <div class="detail-image-wrapper">
              <img src="../assets/img/<?php echo $fruit['img']; ?>" alt="<?php echo $fruit['name']; ?>">
-             <img src="leaf.png" alt="Mango Leaf" class="leaf-graphic">
         </div>
         <div class="info">
             <h1><?php echo $fruit['name']; ?></h1>
