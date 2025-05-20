@@ -74,18 +74,26 @@ body::after {
     margin: 10px 0 5px;
 }
 
-.product p {
-    margin: 4px 0;
+.product a {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
     font-size: 14px;
-    color: #333;
+    box-shadow: 0 3px 10px rgba(231, 76, 60, 0.3);
+    transition: all 0.3s ease;
 }
 
-.product a {
-    margin-top: auto;
-    color: #e74c3c;
-    text-decoration: none;
-    font-weight: bold;
+.product a:hover {
+    background-color: #c0392b;
+    box-shadow: 0 5px 15px rgba(192, 57, 43, 0.4);
+    transform: translateY(-2px);
 }
+
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
