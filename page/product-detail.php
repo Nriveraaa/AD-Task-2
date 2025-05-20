@@ -10,18 +10,24 @@ $fruit = $fruits[$id];
 <head>
     <title><?php echo $fruit['name']; ?> - Details</title>
     <link rel="stylesheet" href="assets/css/detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Blurred background image -->
+    <div class="background"></div>
+
+    <!-- Content wrapper -->
     <div class="detail-container">
-        <img src="../assets/img/<?php echo $fruit['img']; ?>" alt="<?php echo $fruit['name']; ?>">
+        <!-- Fruit Image -->
+        <div class="image-section">
+            <img src="../assets/img/<?php echo $fruit['img']; ?>" alt="<?php echo $fruit['name']; ?>">
+        </div>
+
+        <!-- Fruit Info -->
         <div class="info">
-            <!--fruit name-->
             <h1><?php echo $fruit['name']; ?></h1>
-            <!--fruit description-->
             <p><?php echo $fruit['desc']; ?></p>
-            <!--fruit price-->
             <h2>₱<?php echo number_format($fruit['price'], 2); ?></h2>
-            <!--link back to the main page-->
             <a href="../index.php">⬅ Back to shop</a>
         </div>
     </div>
