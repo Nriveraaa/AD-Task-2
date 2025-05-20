@@ -72,12 +72,19 @@ body {
 
 .info a {
     display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
     text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
-    transition: color 0.3s;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+    transition: all 0.3s ease;
 }
 
 .info a:hover {
-    color: #0056b3;
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 86, 179, 0.4);
+    transform: translateY(-2px);
 }
