@@ -1,0 +1,19 @@
+{
+    "name": "nicole/ad-task-1",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "nicole\\as-task-1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nriveraaa",
+            "email": "202310167@fit.edu.ph"
+        }
+    ],
+    "scripts": {
+        "start": "php -S localhost:8000 router.php"
+    },
+    "require": {}
+}
