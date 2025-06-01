@@ -3,7 +3,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "nicole\\as-task-1\\": "src/"
+            "nicole\\as-task-2\\": "src/"
         }
     },
     "authors": [
