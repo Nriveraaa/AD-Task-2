@@ -1,0 +1,15 @@
+{
+    "name": "nicole/ad-task-2",
+    "autoload": {
+        "psr-4": {
+            "Nicole\\AdTask2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nriveraaa",
+            "email": "202310167@fit.edu.ph"
+        }
+    ],
+    "require": {}
+}
